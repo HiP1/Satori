@@ -1,5 +1,7 @@
 # Satori
 
+*🇫🇷 [Français](README.fr.md) · 🇪🇸 [Español](README.es.md)*
+
 **Moments of clarity in human-AI collaboration.**
 
 Satori is a Zen concept: a sudden flash of insight where the fog parts and you see things as they actually are. Not permanent enlightenment. Not the destination. A moment of genuine clarity that changes something in you, even if the fog returns.
