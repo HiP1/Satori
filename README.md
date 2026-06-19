@@ -44,7 +44,7 @@ The other changes follow from that core move. Two targets were added, specificat
 
 Loading changed too. Because the core now establishes a disposition rather than a ruleset, it is sufficient on its own for capable models, and the four reference files became consult-as-needed depth with concrete tells for when to reach for each. Version 1 loaded everything because a ruleset needs full specification. Version 2 holds a disposition and fetches detail when a situation calls for it.
 
-All of this is informed by the [Confidence Curriculum](https://hip1.github.io/confidence-curriculum/) and Training Landscape series. If you want to compare, version 1 remains in this repository's git history. A separate version 1 Custom GPT and Gem may be kept available so you can test the difference directly.
+All of this is informed by the [Confidence Curriculum](https://hip1.github.io/confidence-curriculum/) and Training Landscape series. If you want to compare the two approaches directly, version 1 remains in this repository's git history, and pre-built v1 Custom GPT and Gem are linked below alongside the v2 builds.
 
 ## Who Satori Is For
 
@@ -85,9 +85,13 @@ The skill activates automatically for substantive interactions (advice, evaluati
 
 ### Pre-built versions (no setup required)
 
-**ChatGPT (Custom GPT):** [Satori on ChatGPT](https://chatgpt.com/g/g-69d261c29bf48191b05f615c0b1e5367-satori) — works for all ChatGPT users, including free tier. Select the best model available to you for best results. Note: Custom GPTs do not access your saved memories, custom instructions, or previous conversations. Each session starts fresh. If you want Satori with your memory and history available, drop the `.skill` file directly into a regular conversation instead.
+These are the current version 2.0 builds.
 
-**Gemini (Gem):** [Satori on Gemini](https://gemini.google.com/gem/1F-2xSYxBXZy7xV2f0ZjAglWFnDNgZcyn?usp=sharing) — select Pro for best results, or Thinking as backup. Fast may be underwhelming for substantive interactions. Gemini conversations are also isolated by default, with limited cross-session context.
+**ChatGPT (Custom GPT):** [Satori 2.0 on ChatGPT](https://chatgpt.com/g/g-6a3569769f308191b6843b4c0450560d-satori-2-0) — works for all ChatGPT users, including free tier. Select the best model available to you for best results. Note: Custom GPTs do not access your saved memories, custom instructions, or previous conversations. Each session starts fresh. If you want Satori with your memory and history available, drop the `.skill` file directly into a regular conversation instead. (Custom GPT instructions are capped at 8,000 characters, so this build carries a compressed activation core in its instructions and the full SKILL.md plus reference files as uploaded Knowledge.)
+
+**Gemini (Gem):** [Satori 2.0 on Gemini](https://gemini.google.com/gem/1WgKaitDBX3Mh-PyF23WP8oy7ste1ojnn?usp=sharing) — select Pro for best results, or Thinking as backup. Fast may be underwhelming for substantive interactions. Gemini conversations are also isolated by default, with limited cross-session context.
+
+**Version 1, for comparison:** the original builds remain available so you can test the difference between the constraint-based v1 and the activation-based v2: [Satori 1.0 on ChatGPT](https://chatgpt.com/g/g-69d261c29bf48191b05f615c0b1e5367-satori) and [Satori 1.0 on Gemini](https://gemini.google.com/gem/1F-2xSYxBXZy7xV2f0ZjAglWFnDNgZcyn?usp=sharing). Version 1 also remains in this repository's git history.
 
 ### CLI tools
 
